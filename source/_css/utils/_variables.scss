@@ -5,28 +5,30 @@
 $open-sans:            'Open Sans';
 $open-sans-sans-serif: 'Open Sans', sans-serif;
 $merriweather-serif:   'Merriweather', serif;
+$helvetica-arial-open-sans: 'Helvetica', 'Arial', 'Open Sans';
+$roboto-arial-open-sans: 'Roboto', 'Arial', 'Open Sans';
 $monospace:             Menlo, Consolas, monospace;
 
-$font-family-base: $open-sans-sans-serif;
+$font-family-base: $roboto-arial-open-sans;
 
 $font-families: (
    // base
-   'headings':          $open-sans-sans-serif,
+   'headings':          $helvetica-arial-open-sans,
    // components
    'code':              $monospace,
    'caption':           $merriweather-serif,
    'image-gallery':     $open-sans,
    'post-header-cover': $merriweather-serif,
-   'post-meta':         $open-sans-sans-serif,
+   'post-meta':         $roboto-arial-open-sans,
    'post-content':      $merriweather-serif,
-   'post-excerpt-link': $open-sans-sans-serif,
+   'post-excerpt-link': $roboto-arial-open-sans,
    'highlight':         $monospace,
    // layout
-   'sidebar':           $open-sans-sans-serif
+   'sidebar':           $roboto-arial-open-sans,
 );
 
 // equal to 15px
-$font-size-base:      1.6rem;
+$font-size-base:      1.7rem;
 $font-color-base:     #5d686f;
 $line-height-base:    1.9em;
 $letter-spacing-base: 0.01em;
@@ -36,13 +38,13 @@ $font-size-base-sm-screen-reduction-factor: 0.1rem;
 
 // Font size : (X.Xrem = XXpx, 1.0rem = 10px)
 $font-size: (
-    'xxlarge': 2rem,
-    'xlarge': 1.8rem,
-    'large':  1.7rem,
+    'xxlarge': 3rem,
+    'xlarge': 2.2rem,
+    'large':  1.8rem,
     'base':   $font-size-base,
-    'medium': 1.5rem,
-    'small':  1.3rem,
-    'xsmall': 1rem
+    'medium': 1.6rem,
+    'small':  1.4rem,
+    'xsmall': 1.1rem
 );
 
 // Colors
@@ -115,12 +117,12 @@ $xlarge-and-up:   "only screen and (min-width : #{map-get($screen, xlg-min)})" !
 
 // Headings font-size : (X.Xrem = XXpx, 1.0rem = 10px)
 $headings-font-size: (
-    'h1': 2.8rem,
-    'h2': 2.4rem,
-    'h3': 2.0rem,
-    'h4': 1.8rem,
-    'h5': 1.7rem,
-    'h6': 1.6rem
+    'h1': 3.0rem,
+    'h2': 2.6rem,
+    'h3': 2.2rem,
+    'h4': 2.0rem,
+    'h5': 1.8rem,
+    'h6': 1.7rem
 );
 // Reduction of headings font size on small screen and down
 $headings-font-size-sm-screen-reduction-factor: 0.2rem;
