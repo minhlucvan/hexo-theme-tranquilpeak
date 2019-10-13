@@ -121,7 +121,7 @@
 
     .sidebar-container {
         position: relative;
-        padding:  0 80px;
+        padding:  0 50px;
     }
     // Author information
     .sidebar-profile {
@@ -144,13 +144,13 @@
         .sidebar-profile-job,
         .sidebar-profile-location {
             margin-top: 0;
-            width:      49%;
+            width:      100%;
             display:    inline-block;
         }
     }
     // Buttons
     ul.sidebar-buttons {
-        width:          49%;
+        width:          100%;
         vertical-align: top;
         display:        inline-block;
 
