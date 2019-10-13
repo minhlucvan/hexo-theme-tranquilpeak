@@ -16,11 +16,11 @@ $font-families: (
    'headings':          $helvetica-arial-open-sans,
    // components
    'code':              $monospace,
-   'caption':           $merriweather-serif,
+   'caption':           $open-sans-sans-serif,
    'image-gallery':     $open-sans,
-   'post-header-cover': $merriweather-serif,
+   'post-header-cover': $open-sans-sans-serif,
    'post-meta':         $roboto-arial-open-sans,
-   'post-content':      $merriweather-serif,
+   'post-content':      $open-sans-sans-serif,
    'post-excerpt-link': $roboto-arial-open-sans,
    'highlight':         $monospace,
    // layout
@@ -218,7 +218,7 @@ $image-gallery-photos-margin: 2px;
 
 // Main content
 $main-content: (
-    'max-width':          750px,
+    'max-width':          950px,
     'padding-right-left': 20px,
 );
 
@@ -228,7 +228,7 @@ $main-content: (
 // because they are larger than the post title or something like that
 // font-size : (X.Xrem = XXpx, 1.0rem = 10px)
 $markdown-headings-font-size: (
-    'h1': 3rem,
+    'h1': 2.9rem,
     'h2': 2.7rem,
     'h3': 2.4rem,
     'h4': 2.1rem,
@@ -245,7 +245,7 @@ $pagination-height: 60px;
 
 // Post thumbnail image
 // Width and height of post's thumbnail image
-$post-thumbnail-image-width: 140px;
+$post-thumbnail-image-width: 150px;
 $post-bottom-thumbnail-image-max-height: 250px;
 
 // Tooltip
