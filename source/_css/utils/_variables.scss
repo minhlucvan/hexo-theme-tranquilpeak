@@ -28,13 +28,13 @@ $font-families: (
 );
 
 // equal to 15px
-$font-size-base:      1.7rem;
+$font-size-base:      1.5rem;
 $font-color-base:     #5d686f;
-$line-height-base:    1.9em;
+$line-height-base:    1.8em;
 $letter-spacing-base: 0.01em;
 
 // Reduction of font size base on small screen and down
-$font-size-base-sm-screen-reduction-factor: 0.1rem;
+$font-size-base-sm-screen-reduction-factor: 0.5rem;
 
 // Font size : (X.Xrem = XXpx, 1.0rem = 10px)
 $font-size: (
@@ -125,9 +125,9 @@ $headings-font-size: (
     'h6': 1.7rem
 );
 // Reduction of headings font size on small screen and down
-$headings-font-size-sm-screen-reduction-factor: 0.2rem;
+$headings-font-size-sm-screen-reduction-factor: 1rem;
 // Reduction of headings font size on medium screen only
-$headings-font-size-md-screen-reduction-factor: 0.15rem;
+$headings-font-size-md-screen-reduction-factor: 0.65rem;
 
 // Layout settings
 // Files are located in `layout` folder
